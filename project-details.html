@@ -2,21 +2,21 @@
 <html lang="en">
 
 <head>
-    <!-- ========== Meta Tags ========== -->
+     <!-- ========== Meta Tags ========== -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Xorim - Personal Portfolio Template">
 
     <!-- ========== Page Title ========== -->
-    <title>Xorim - Personal Portfolio Template</title>
+    <title>Abhishek Gupta - Portfolio</title>
 
     <!-- ========== Favicon Icon ========== -->
     <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
 
     <!-- ========== Start Stylesheet ========== -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/fontawesome.min.css" rel="stylesheet">
     <link href="assets/css/magnific-popup.css" rel="stylesheet">
     <link href="assets/css/swiper-bundle.min.css" rel="stylesheet">
     <link href="assets/css/animate.min.css" rel="stylesheet">
@@ -24,12 +24,8 @@
     <link href="assets/css/helper.css" rel="stylesheet">
     <link href="assets/css/unit-test.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
-    <!-- ========== End Stylesheet ========== -->
 
-    <!--[if lte IE 9]>
-        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-    <![endif]-->
+    <!-- ========== End Stylesheet ========== -->
 
 </head>
 
@@ -60,10 +56,9 @@
     ============================================= -->
     <header>
         <!-- Start Navigation -->
-        <nav class="navbar mobile-sidenav navbar-sticky navbar-default validnavs navbar-fixed dark no-background">
+        <nav class="navbar mobile-sidenav navbar-sticky navbar-default validnavs navbar-fixed">
 
-            <div class="container d-flex justify-content-between align-items-center">            
-                
+            <div class="container d-flex justify-content-between align-items-center">             
 
                 <!-- Start Header Navigation -->
                 <div class="navbar-header">
@@ -71,7 +66,8 @@
                         <i class="fa fa-bars"></i>
                     </button>
                     <a class="navbar-brand" href="index.html">
-                        <img src="assets/img/logo.png" class="logo" alt="Logo">
+                        
+                        <img src="assets/img/logo-dark.png" class="logo" alt="Logo">
                     </a>
                 </div>
                 <!-- End Header Navigation -->
@@ -79,59 +75,57 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="navbar-menu">
 
-                    <img src="assets/img/logo.png" alt="Logo">
+                    <img src="assets/img/logo-dark.png" alt="Logo">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                         <i class="fa fa-times"></i>
                     </button>
                     
-                    <ul class="nav navbar-nav navbar-center" data-in="fadeInDown" data-out="fadeOutUp">
+                    <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown" >Home</a>
-                            <ul class="dropdown-menu">
-                                <li><a href="index.html">Home Version Light</a></li>
-                                <li><a href="index-dark.html">Home Version Dark</a></li>
-                                <li><a href="index-side-menu.html">Home Side Menu Light</a></li>
-                                <li><a href="index-dark-side-menu.html">Home Side Menu Dark</a></li>
-                            </ul>
+                            <a href="index.html" class="active" data-toggle="dropdown">Home</a>
                         </li>
                         <li>
-                            <a class="smooth-menu" href="service.html">Services</a>
+                            <a class="smooth-menu" href="index.html#about">About</a>
                         </li>
                         <li>
-                            <a class="smooth-menu" href="projects.html">Portfolio</a>
+                            <a class="smooth-menu" href="index.html#career">Career</a>
                         </li>
                         <li>
-                            <a class="smooth-menu" href="resume.html">Resume</a>
+                            <a class="smooth-menu" href="index.html#services">Experience Stack</a>
                         </li>
                         <li>
-                            <a class="smooth-menu" href="pricing.html">Pricing</a>
+                            <a class="smooth-menu" href="index.html#skills">Skills</a>
                         </li>
                         <li>
-                            <a class="smooth-menu" href="contact.html">contact</a>
+                            <a class="smooth-menu" href="index.html#testimonial">Testimonial</a>
+                        </li>
+                        <!-- <li>
+                            <a class="smooth-menu" href="#pricing">Pricing</a>
+                        </li> -->
+                        <li>
+                            <a class="smooth-menu" href="index.html#footer">Contact</a>
                         </li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
 
-                <div class="attr-right">
-                    <!-- Start Atribute Navigation -->
-                    <div class="attr-nav">
-                        <ul>
-                            <li class="button">
-                                <a href="contact.html">Let's Talk <i class="fas fa-comment-alt"></i></a>
-                            </li>
-                        </ul>
+                <div class="nav-right">
+                    <div class="attr-right">
+                        <!-- Start Atribute Navigation -->
+                        <div class="attr-nav attr-box">
+                            <ul>
+                                <li class="button">
+                                    <a class="smooth-menu" href="index.html#contact">Let's Talk <i class="fas fa-comment-alt"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- End Atribute Navigation -->
                     </div>
-                    <!-- End Atribute Navigation -->
-
-
                 </div>
-                <!-- Main Nav -->
-            </div>  
+            </div>   
 
             <!-- Overlay screen for menu -->
             <div class="overlay-screen"></div>
             <!-- End Overlay screen for menu -->
-
         </nav>
         <!-- End Navigation -->
     </header>
@@ -335,15 +329,15 @@
 
     <!-- Start Footer 
     ============================================= -->
-    <footer class="bg-dark text-light">
+    <footer id="footer" class="bg-dark text-light">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5">
                     <div class="footer-item">
                         <h2>Let’s work together</h2>
                         <ul class="short-link">
-                            <li><a href="mailto:support@xorim.com"><i class="fas fa-envelope"></i> Email Me</a></li>
-                            <li><a href="#"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
+                            <li><a href="mailto:abhishek251gupta@gmail.com" target="_blank"><i class="fas fa-envelope"></i> Email Me</a></li>
+                            <li><a href="https://wa.me/8272815720" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
                         </ul>
                     </div>
                 </div>
@@ -353,24 +347,24 @@
                         <div class="footer-item">
                             <h4 class="widget-title">What I Do?</h4>
                             <ul class="project-list">
-                                <li><a href="services-details.html">Web Development</a></li>
-                                <li><a href="services-details.html">Mobile App Design</a></li>
-                                <li><a href="services-details.html">Brand Identity</a></li>
+                                <li><a href="services-details.html">Web Design, Development, Maintenance</a></li>
+                                <li><a href="services-details.html">Mobile/Web App Designing</a></li>
+                                <li><a href="services-details.html">UI/UX, Branding</a></li>
                                 <li><a href="services-details.html">Graphics Design</a></li>
-                                <li><a href="services-details.html">Software Migration</a></li>
+                                <li><a href="services-details.html">Data Analytics Dashboards</a></li>
                             </ul>
                         </div>
                         <!-- Single Item -->
                         <!-- Single Item -->
                         <div class="footer-item">
-                            <h5>2 Shelley Street, Sydney, NSW 2000, Australia</h5>
+                            <h5>H/N 43, Pushp Nagar, 100ft Road, Agra, U.P., India</h5>
                             <div class="bottom">
                                 <h4>Connect with me</h4>
                                 <ul class="social-list">
-                                    <li><a href="#">FB.</a></li>
-                                    <li><a href="#">IN.</a></li>
-                                    <li><a href="#">TW.</a></li>
-                                    <li><a href="#">BE.</a></li>
+                                    <li><a href="https://www.facebook.com/abhishek251gupta">FB.</a></li>
+                                    <li><a href="https://www.instagram.com/ausu_creations_/">IN.</a></li>
+                                    <li><a href="https://x.com/Abhishe51085455">TW.</a></li>
+                                    <li><a href="https://www.linkedin.com/in/abhishek-gupta-100384151/">LI.</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -381,7 +375,7 @@
             <div class="footer-bottom">
                 <div class="row">
                     <div class="col-lg-6">
-                        <p>Copyright &copy; 2024 Xorim. All Rights Reserved</p>
+                        <p>Copyright &copy; 2026 AuSu Creations. All Rights Reserved</p>
                     </div>
                     <div class="col-lg-6 text-end">
                         <a id="scrollUp" href="#">Back To Top <i class="fas fa-arrow-up"></i></a>
