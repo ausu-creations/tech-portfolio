@@ -3319,8 +3319,8 @@ ul.timeline-style-one-items li .right h3 {
 ul.timeline-style-one-items li .left img {
 	height: 80px;
 	max-width: max-content;
-	border-radius: 50%;
-	border: 2px solid var(--white);
+	/* border-radius: 50%;
+	border: 2px solid var(--white); */
 }
 
 .career-area {
